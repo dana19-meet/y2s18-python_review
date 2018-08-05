@@ -34,7 +34,7 @@ This function should require `1 < y < 250` and `500 < x < 1,000`. If this isn't 
 2. Update your encode function to guarantee that the inputs `x` and `y` are prime. If `x` is not prime,
 then keep incrementing the value of `x` until it is prime; then, do the same process for `y`. If this
 causes the new values of `x` and `y` to be out of the range, print `Invalid input: Outside range.`,
-and return None.  
+and return None. 
 *Hint: Have we implemented any functions previously, which could be useful here?*
 
 3. Write a function, `decode`, which takes in the output (the value of the product)
